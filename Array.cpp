@@ -31,7 +31,7 @@ for(int i = size_ - 1; i >= index; i--){
     data_[i + 1] = data_[i];
 }
     data_[index]= value;
-    size_++; // kani error ganina
+    size_++; // na fix na error & testing git
     return true;
 } 
 
